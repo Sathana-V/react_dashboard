@@ -1,0 +1,38 @@
+
+.circular-loader {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circular-loader svg {
+    transform: rotate(-90deg); 
+  }
+  
+  .background-circle {
+    fill: none;
+    stroke: #e6e6e6; 
+    stroke-width: 10;
+  }
+  
+  .progress-circle {
+    fill: none;
+    stroke: #136dd4; 
+    stroke-width: 10;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.6s ease;
+  }
+  
+  .loader-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .loader-completed {
+    color: rgb(224, 224, 224);
+    font-size: 6px;
+  }
+  

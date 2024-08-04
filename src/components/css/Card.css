@@ -1,0 +1,53 @@
+
+.my-card {
+  
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .card-icon {
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .card-number {
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    font-size: 1.5rem;
+  }
+  .card-title {
+    color: white !important;
+    font-size: 10px !important;
+  }
+ 
+  .profit-card   .card-title {
+    font-size: 215x !important;
+  }
+ 
+  .number {
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+  }
+  .profit-card   .number {
+    font-size: 35px !important;
+  }
+  
+  .percentage {
+    color: #00ff3c;
+    padding: 0 2px;
+    font-size: 15px;
+  }
+  
+  .card-title {
+    color: white;
+    margin-bottom: 10px;
+  }
+  

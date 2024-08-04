@@ -1,0 +1,38 @@
+
+.activity-card {
+
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .activity-card .card-title {
+    font-size: 20px !important;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .activity-card .dropdown-toggle {
+    background-color: #555;
+    border: none;
+    color: #fff;
+  }
+  #dropdown-basic {
+    border-radius: 30px;
+  }
+  
+  .activity-card .dropdown-menu {
+    background-color: #444;
+    border: none;
+  }
+  
+  .activity-card .dropdown-item {
+    color: #fff;
+  }
+  
+  .activity-card .dropdown-item:hover {
+    background-color: #555;
+  }
+  

@@ -1,0 +1,44 @@
+
+.item-list-card {
+  
+   
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .item-list-card .card-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .item-list-card .list-group-item {
+    background-color: #333;
+    border: none;
+  }
+  
+  .item-list-card .icon-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .item-list-card .item-title {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .item-list-card .show-more-button {
+    background-color: #555;
+    border: none;
+    border-radius: 50%;
+  }
+  
