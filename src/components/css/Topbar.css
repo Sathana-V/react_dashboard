@@ -1,0 +1,45 @@
+#topbar {
+    z-index: 10;
+}
+.navbar-nav.ml-auto .nav-link {
+    margin-left: 20px;
+
+  }
+  .topbar-icon {
+    margin: 10px;
+    font-size: 15px !important;
+    background-color: #4e4e4e !important;
+    color: #fff !important;
+    border-radius: 50% ; 
+    padding: 10px !important; 
+    margin: 0 px;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important; 
+  }
+  .topbar-icon :hover {
+    color: blue !important;
+  }
+
+  .navbar-brand img {
+    margin-right: 10px; 
+  }
+  
+  .profile-dropdown {
+    margin-top: 3px;
+  }
+  .profile-dropdown::after {
+    display: none !important;
+  }
+  
+  .dropdown-toggle {
+    padding: 0; 
+  }
+  .navbar-brand {
+    margin-left: 15px;
+  }
+
+  .navbar-brand .fa-truck {
+    margin-right: 10px; 
+  }
+  
