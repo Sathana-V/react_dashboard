@@ -2,11 +2,11 @@
 import "./css/Topbar.css";
 import { Navbar, Nav, Form, FormControl, Button, Dropdown, Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faBell, faEnvelope, faUser, faTruck, faGear } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faBell, faEnvelope, faTruck, faGear } from '@fortawesome/free-solid-svg-icons';
 import profilePic from '../assets/person.png';
 import React, { useState, useEffect } from 'react';
 const TopBar = () => {
-  const [windowSize, setWindowSize] = useState({
+  const [ setWindowSize] = useState({
     width: window.innerWidth,
     height: window.innerHeight
   });
