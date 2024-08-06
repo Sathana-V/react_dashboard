@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import CardComponent from './CardComponent';
 
-import { faTruck, faEnvelope, faGear } from '@fortawesome/free-solid-svg-icons';
+import { faTruck } from '@fortawesome/free-solid-svg-icons';
 import './css/Dashboard.css';
 import ActivityCard from './ActivityCard';
 import ItemListCard from './ItemsListCard';
