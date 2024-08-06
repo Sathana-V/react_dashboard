@@ -6,8 +6,24 @@ import { faSearch, faBell, faEnvelope, faTruck, faGear } from '@fortawesome/free
 import profilePic from '../assets/person.png';
 import React, { useState, useEffect } from 'react';
 const TopBar = () => {
- 
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   const isMobile =  window.innerWidth < 780;
+  console.log(windowSize);
   return (
     <Navbar bg="dark" variant="dark" expand="lg" id="topbar">
       <Navbar.Brand href="#">
